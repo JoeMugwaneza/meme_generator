@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* MY OWN CSS */
+
+.meme-header{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  height: 65px;
+  padding: 20px;
+}
+.troll-face{
+  height: 100%;
+  margin-right: 6px;
+
+}
+
+.meme--title{
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.meme--project-name{
+  font-size: 0.75rem;
+  font-weight: 500;
 }
