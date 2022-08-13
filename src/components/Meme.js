@@ -2,9 +2,11 @@ import React from 'react';
 import memesData from '../memesData';
 
 export default function Meme(){
+
     function getMemeImage(){
-        const image = memesData.data.memes.map(meme => meme.url)
-        console.log(image);
+        const images = memesData.data.memes.map(meme => meme.url)
+        const randomImageUrl = Math.floor( Math.random()*images.length);
+        console.log(images[randomImageUrl]);
     }
 
     return(
