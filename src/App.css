@@ -94,3 +94,8 @@ main{
   border: none;
   cursor: pointer;
 }
+
+.meme--image{
+  margin-top: 20px;
+  max-width: 100%;
+}
