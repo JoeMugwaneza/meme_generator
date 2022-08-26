@@ -45,6 +45,7 @@ export default function Meme(){
                     placeholder='Top text' 
                     className='form--input'
                     name='topText'
+                    value={meme.topText}
                     onChange={handleChange}
                 />
 
@@ -53,6 +54,7 @@ export default function Meme(){
                     placeholder='Bottom text'
                     className='form--input'
                     name='bottomText'
+                    value={meme.bottomText}
                     onChange={handleChange}
                 />
 
